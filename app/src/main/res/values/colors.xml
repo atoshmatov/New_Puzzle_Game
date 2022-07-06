@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    main color-->
+    <color name="bg_color">#D6DFDB</color>
+    <color name="mc_play">#123BD9</color>
+    <color name="mc_about">#00B269</color>
+    <color name="mc_result">#FD6229</color>
+    <color name="tv_color">#FFF</color>
+    <color name="tv_about_cv">#272626</color>
+    <!--    main color-->
+
+    <!--    game activity-->
+    <color name="item_1">#D82624</color>
+    <color name="item_2">#D96E26</color>
+    <color name="item_3">#D7B620</color>
+    <color name="item_4">#B2D82B</color>
+    <color name="item_5">#6DD924</color>
+    <color name="item_6">#25D824</color>
+    <color name="item_7">#25D96C</color>
+    <color name="item_8">#25D9B4</color>
+    <color name="item_9">#22B7D3</color>
+    <color name="item_10">#256ED7</color>
+    <color name="item_11">#2526D8</color>
+    <color name="item_12">#6C26D7</color>
+    <color name="item_13">#B427D8</color>
+    <color name="item_14">#D827B5</color>
+    <color name="item_15">#D7256C</color>
+    <color name="dialog_bt">#F9C55D</color>
+    <color name="dialog_btn_color">#656565</color>
+    <!--    game activity-->
+</resources>

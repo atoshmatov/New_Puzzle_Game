@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="mc_style">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_margin">14dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!--    game style-->
+    <style name="CellButton">
+        <item name="android:layout_width">0dp</item>
+
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:textSize">24sp</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:layout_margin">4dp</item>
+    </style>
+    <!--    game style-->
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_10.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_11.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_12.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_13.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_14.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_15.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_2.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_3.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_4.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_5.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_6.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_7.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_8.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable-v24/item_9.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/btn.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/cl_style.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/count_style.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/ic_about.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/ic_list.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/ic_play.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/ic_refresh.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_1.xml" value="0.231" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_10.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_11.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_12.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_13.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_14.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_15.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_2.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_3.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_4.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_5.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_6.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_7.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_8.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/drawable/item_9.xml" value="0.17" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/layout/about.xml" value="0.33" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/layout/activity_game.xml" value="0.22" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/layout/exit.xml" value="0.22447916666666667" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/layout/result.xml" value="0.33" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/layout/windialog.xml" value="0.22" />
+        <entry key="..\:/BootCamp_Android/Play market/Lesson_App_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.147" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

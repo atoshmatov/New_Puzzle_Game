@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".Game">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/countStep"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/counts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cl_style"
+            android:gravity="center"
+            android:text="Moves :\n 0"
+            android:textSize="20sp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tableGame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/cl_style"
+        android:padding="6dp"
+        app:layout_constraintBottom_toTopOf="@id/refresh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/countStep">
+
+        <TextView
+            android:id="@+id/btn1"
+            style="@style/CellButton"
+            android:background="@drawable/item_1"
+            app:layout_constraintBottom_toTopOf="@id/btn5"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/btn2"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="1" />
+
+        <TextView
+            android:id="@+id/btn2"
+            style="@style/CellButton"
+            android:background="@drawable/item_2"
+            app:layout_constraintBottom_toTopOf="@id/btn6"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn1"
+            app:layout_constraintRight_toLeftOf="@id/btn3"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="2" />
+
+        <TextView
+            android:id="@+id/btn3"
+            style="@style/CellButton"
+            android:background="@drawable/item_3"
+            app:layout_constraintBottom_toTopOf="@id/btn7"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn2"
+            app:layout_constraintRight_toLeftOf="@id/btn4"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="3" />
+
+        <TextView
+            android:id="@+id/btn4"
+            style="@style/CellButton"
+            android:background="@drawable/item_4"
+            app:layout_constraintBottom_toTopOf="@id/btn8"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn3"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="4" />
+
+        <TextView
+            android:id="@+id/btn5"
+            style="@style/CellButton"
+            android:background="@drawable/item_5"
+            app:layout_constraintBottom_toTopOf="@id/btn9"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/btn6"
+            app:layout_constraintTop_toBottomOf="@id/btn1"
+            tools:text="5" />
+
+        <TextView
+            android:id="@+id/btn6"
+            style="@style/CellButton"
+            android:background="@drawable/item_6"
+            app:layout_constraintBottom_toTopOf="@id/btn10"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn5"
+            app:layout_constraintRight_toLeftOf="@id/btn7"
+            app:layout_constraintTop_toBottomOf="@id/btn2"
+            tools:text="6" />
+
+        <TextView
+            android:id="@+id/btn7"
+            style="@style/CellButton"
+            android:background="@drawable/item_7"
+            app:layout_constraintBottom_toTopOf="@id/btn11"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn6"
+            app:layout_constraintRight_toLeftOf="@id/btn8"
+            app:layout_constraintTop_toBottomOf="@id/btn3"
+            tools:text="7" />
+
+        <TextView
+            android:id="@+id/btn8"
+            style="@style/CellButton"
+            android:background="@drawable/item_8"
+            app:layout_constraintBottom_toTopOf="@id/btn12"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn7"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn4"
+            tools:text="8" />
+
+        <TextView
+            android:id="@+id/btn9"
+            style="@style/CellButton"
+            android:background="@drawable/item_9"
+            app:layout_constraintBottom_toTopOf="@id/btn13"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/btn10"
+            app:layout_constraintTop_toBottomOf="@id/btn5"
+            tools:text="9" />
+
+        <TextView
+            android:id="@+id/btn10"
+            style="@style/CellButton"
+            android:background="@drawable/item_10"
+            app:layout_constraintBottom_toTopOf="@id/btn14"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn9"
+            app:layout_constraintRight_toLeftOf="@id/btn11"
+            app:layout_constraintTop_toBottomOf="@id/btn6"
+            tools:text="10" />
+
+        <TextView
+            android:id="@+id/btn11"
+            style="@style/CellButton"
+            android:background="@drawable/item_11"
+            app:layout_constraintBottom_toTopOf="@id/btn15"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn10"
+            app:layout_constraintRight_toLeftOf="@id/btn12"
+            app:layout_constraintTop_toBottomOf="@id/btn7"
+            tools:text="11" />
+
+        <TextView
+            android:id="@+id/btn12"
+            style="@style/CellButton"
+            android:background="@drawable/item_12"
+            app:layout_constraintBottom_toTopOf="@id/btn16"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn11"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn8"
+            tools:text="12" />
+
+        <TextView
+            android:id="@+id/btn13"
+            style="@style/CellButton"
+            android:background="@drawable/item_13"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/btn14"
+            app:layout_constraintTop_toBottomOf="@id/btn9"
+            tools:text="13" />
+
+        <TextView
+            android:id="@+id/btn14"
+            style="@style/CellButton"
+            android:background="@drawable/item_14"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn13"
+            app:layout_constraintRight_toLeftOf="@id/btn15"
+            app:layout_constraintTop_toBottomOf="@id/btn10"
+            tools:text="14" />
+
+        <TextView
+            android:id="@+id/btn15"
+            style="@style/CellButton"
+            android:background="@drawable/item_15"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn14"
+            app:layout_constraintRight_toLeftOf="@id/btn16"
+            app:layout_constraintTop_toBottomOf="@id/btn11"
+            tools:text="15" />
+
+        <TextView
+            android:id="@+id/btn16"
+            style="@style/CellButton"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/btn15"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn12" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_refresh"
+        android:tint="#453E41"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableGame" />
+</androidx.constraintlayout.widget.ConstraintLayout>

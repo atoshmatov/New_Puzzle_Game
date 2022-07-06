@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">New_Puzzle_Game</string>
+    <!--    main app-->
+    <string name="play">Play</string>
+    <string name="about">About</string>
+    <string name="result">Result</string>
+    <string name="created">GITA | Created by ALimardon</string>
+    <string name="again">Again</string>
+    <string name="home">Home</string>
+    <string name="you_win">You Win</string>
+    <string name="about_text">GITA Dasturchilar Academiyasi Android Bootcamp kursi 3-darsda tayorlangan ilova. Puzzle 15 ilovasi barcha yoshdagi foydalanuvchilar uchun mo\'ljallangan. Ilova mantiqiy o\'ylash uchun juda yaxshi yordam beradi degan ummiddaman. \n Tuzuvchi: Alimardon Toshmatov. </string>
+    <string name="record_3">Record 3:</string>
+    <string name="record_2">Record 2:</string>
+    <string name="record_1">Record 1:</string>
+    <string name="exit_game">Do you want to finish the game</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <!--    main app-->
+</resources>

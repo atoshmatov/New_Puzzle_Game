@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/cl_style"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/win1_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:text="@string/about_text"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/frameLayout_about"
+        app:layout_constraintStart_toStartOf="@+id/frameLayout_about"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout_about" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout_about"
+        app:layout_constraintEnd_toEndOf="@+id/frameLayout_about"
+        app:layout_constraintStart_toStartOf="@+id/frameLayout_about" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/yes_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/btn"
+        android:text="@string/home"
+        android:textColor="@color/dialog_btn_color"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/info"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout_about"
+        app:layout_constraintEnd_toEndOf="@+id/frameLayout_about"
+        app:layout_constraintStart_toStartOf="@+id/frameLayout_about"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout_about" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
